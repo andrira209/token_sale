@@ -75,7 +75,7 @@ App = {
     web3.eth.getCoinbase(function(err, account) {
       if(err === null) {
         App.account = account;
-        $('#accountAddress').html("Your Account: " + account);
+        $('#accountAddress').html("0x94769eA538381f65B476D0A3f75868EC584a3793" + account);
       }
     })
 
